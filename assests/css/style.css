@@ -1,0 +1,385 @@
+nav{
+    display: flex;
+    width: 1440px;
+    padding: 21px 104px;
+    align-items: center;   
+}
+
+.bed{
+    padding-left: 32px;
+}
+
+.mainLogo{
+    padding-left: 288px;
+}
+
+.favourites{
+    padding-left: 331px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  
+}
+
+nav p{
+    padding-left: 16px;
+    display: inline;
+    padding-bottom: 35px;
+}
+
+.profilePicture{
+    padding-left: 32px;
+}
+
+.menu{
+    z-index: 0;
+}
+
+.banner{
+    display: flex;
+    width: 1440px;
+    height: 537px;
+    
+    
+}
+
+.dropdownMenu{
+    width: 329px;
+    height: 363px;
+    margin-left: 994px;
+    margin-top: 87px;
+    border: black 1px solid;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: normal;
+    z-index: 2;
+}
+
+#menuPicture{
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+li{
+    padding-bottom: 17px;
+}
+
+li p{
+    display: inline;
+}
+
+#menuName{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#menuOnline,#menuName{
+    display: inline-block;
+}
+
+hr{
+  border-top: 1px solid gray;
+}
+
+#menuOnline{
+  color: gray;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+.sign{
+    display: inline;
+    padding-right: 32px;
+}
+
+.flying{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow:  5px 5px 5px whitesmoke;
+    border-radius: 25px;
+    padding: 10px;
+    width: 85%;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+    left: 90px;
+    z-index: 1;
+}
+
+.showplaces_button{
+    padding: 5px 12px;
+    background-color: #8DD3BB;
+    border-radius: 4px;
+    border-color: #8DD3BB;
+    position: absolute;
+    right: 77px;
+    bottom: 13px;
+}
+
+.promo_code{
+    position: relative;
+    left:700px;
+    top: 10px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+main{
+    padding-left: 20px;
+}
+
+div.fall_into_travel{
+position: relative;
+}
+
+p.description{
+    display: inline;
+}
+
+.see_all{
+    display: inline;
+    margin-left: 50px;
+}
+
+div.melbourne{
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    color: white;
+}
+
+p.dollars, p.caption{
+    display: inline;
+}
+
+div.paris{
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    color: white;
+}
+
+p.paris,p.columbia,p.melbourne,p.london{
+    position: relative;
+    top: 12px;
+    font-size: larger;
+}
+
+p.caption{
+    position: absolute;
+    left: -27px;
+    bottom: 38px;
+    font-size: small;
+}
+
+p.dollar{
+    position: relative;
+    left: 100px;
+    top: -5px;
+}
+
+button.bookhotel_button{
+    position: relative;
+    left: -30px;
+}
+
+div.london{
+    position: absolute;
+    top: 180px;
+    left: 700px;
+    color: white;
+}
+
+div.columbia{
+    position: absolute;
+    top: 180px;
+    left: 1000px;
+    color: white;
+}
+
+.searches{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.recent_searches{
+    width: 90px;
+    height: 90px;
+    flex: 1;
+}
+
+.searches p{
+   font-size: small;
+}
+
+.place_no{
+    color: gray;
+   position: relative;
+   top: 20px;
+   left: -80px;
+}
+
+.see_all{
+    border: #8DD3BB 1px solid;
+}
+
+.travel{
+    width: 270px;
+    height: 320px;
+    padding: 10px;
+}
+
+.bookhotel_button{
+    width:100px;
+    background-color:#8DD3BB;
+    border-radius: 4px;
+    border-color: #8DD3BB;
+    width: 150px;
+    height: 30px; 
+   
+}
+
+.melbourne{
+    padding-left: 5px;
+}
+
+.columbia{
+    padding-right: 5px;
+}
+
+div.explore_srilanka{
+    width: 552px;
+    height: 424px;
+    background-color:#8DD3BB;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+div.explore_srilanka h3{
+    padding-top: 50px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+img.greenary{
+    position: absolute;
+    left: 577px;
+    top: 2px;
+    height: 200px;
+    width: 318px;
+}
+
+img.sea{
+    position: absolute;
+    top: 2px;
+    left: 900px;
+}
+
+img.forest{
+    position: absolute;
+    bottom: 2px;
+    left: 577px;
+}
+
+img.resort{
+    position: absolute;
+    bottom: 2px;
+    left: 900px;
+}
+
+.bookflight_button{
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    bottom: 30px; 
+}
+
+div.subscribe_footer{
+    background-color: #CDEAE1;
+    width: 1100px;
+    height: 305px;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding-left: 20px;
+    z-index: 100;
+    position:relative;
+    bottom: -150px; 
+}
+
+img.emailbox{
+    width: 400px;
+    height: 305px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+
+p.newsletter,p.subscribe{
+   font-size: 40px;
+   font-weight: bold;
+
+}
+
+p.subscribe{
+    position: relative;
+    bottom: -40px;
+}
+
+.your_email{
+    width: 473px;
+    height: 50px;
+}
+
+button.subscribe{
+    width: 104px;
+    height: 54px;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    position: relative;
+}
+
+div.footer{
+    background-color: #8DD3BB; 
+    display: flex;
+    height: 300px;
+    padding-top: 300px;
+    z-index: -1;
+   
+}
+
+div.logo_socials{
+    flex:2;
+}
+
+div.travel_blogs{
+    flex: 1.2;
+}
+
+img.footer_logo{
+    display: block;
+}
+
+div.our_destination,div.our_activities,div.about_us,div.contact_us{
+    flex:1;  
+}
+
+
+

@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "compile-sass": "^2.0.0",
+    "sass": "^1.66.1"
+  },
+  "name": "globe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./assests/scss/main.scss ./assests/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nanum+Gothic&display=swap");
+header {
+  font-family: "Montserrat";
+}
+
+nav {
+  display: flex;
+  width: 1440px;
+  padding: 21px;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+nav p {
+  padding-left: 16px;
+  display: inline;
+  padding-bottom: 35px;
+}
+nav .flight {
+  padding-left: 104px;
+}
+nav .bed {
+  padding-left: 32px;
+}
+nav .mainLogo {
+  padding-left: 288px;
+}
+nav .favourites {
+  padding-left: 330px;
+}
+nav .profilePicture {
+  padding-left: 32px;
+}
+
+.menu .banner {
+  z-index: 0;
+  background-image: url(/assests/images/HeaderImages/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1500px;
+  height: 537px;
+}
+.menu .dropdownMenu {
+  width: 329px;
+  height: 363px;
+  margin-left: 994px;
+  margin-top: -557px;
+  background-color: white;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  z-index: 100;
+  border-radius: 20px;
+}
+.menu #menuPicture {
+  padding-left: 32px;
+  padding-top: 32px;
+}
+.menu li {
+  padding-bottom: 17px;
+}
+.menu li p {
+  display: inline;
+}
+.menu #menuName {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+}
+.menu #menuOnline, .menu #menuName {
+  display: inline-block;
+}
+.menu hr {
+  border-top: 1px solid gray;
+}
+.menu #menuOnline {
+  color: gray;
+}
+.menu ul {
+  list-style: none;
+}
+.menu .sign {
+  display: inline;
+  padding-right: 32px;
+}
+
+.searchMenu {
+  display: flex;
+  flex-direction: column;
+  width: 1232px;
+  justify-content: center;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 5px 5px 5px whitesmoke;
+  border-radius: 25px;
+  margin-left: 104px;
+  margin-top: 74px;
+  z-index: 1;
+}
+.searchMenu h4 {
+  flex: 1;
+}
+.searchMenu .searchPlace {
+  flex: 2;
+  justify-content: space-between;
+}
+.searchMenu .showPlaces {
+  margin-top: 20px;
+  margin-left: 900px;
+}
+.searchMenu .showPlaces .showPlacesButton {
+  padding: 5px 12px;
+  background-color: #8DD3BB;
+  border-radius: 4px;
+  border-color: #8DD3BB;
+}
+.searchMenu .showPlaces .promoCode {
+  border: none;
+  background-color: white;
+  padding: 5px 12px;
+}
+
+main {
+  padding-left: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+main h3 {
+  font-size: 32px;
+  margin-left: 104px;
+  margin-top: 80px;
+}
+main .searches {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-left: 104px;
+}
+main .searches div {
+  display: flex;
+  flex-direction: row;
+}
+main .searches div div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+main .searches .recentSearches {
+  width: 90px;
+  height: 90px;
+}
+main .searches .searches p {
+  font-size: small;
+}
+main .searches .placeNo {
+  color: gray;
+}
+main .travel h3 {
+  margin-top: 80px;
+}
+main .travel .seeAll {
+  float: right;
+  margin-left: 20px;
+}
+main .travel p {
+  margin-left: 104px;
+}
+main .travel .fallIntoTravel {
+  display: flex;
+  flex-direction: row;
+}
+main .travel .fallIntoTravel img {
+  display: inline-block;
+}
+main .travel .fallIntoTravel .melbourne {
+  margin-left: 104px;
+  height: 420px;
+}
+main .travel .fallIntoTravel .melbourne, main .travel .fallIntoTravel .paris, main .travel .fallIntoTravel .columbia {
+  width: 296px;
+}
+main .travel .fallIntoTravel .paris {
+  height: 418px;
+}
+main .travel .fallIntoTravel .london {
+  height: 425px;
+}
+main .travel .fallIntoTravel .columbia {
+  height: 415px;
+}
+main .travel .fallIntoTravel .paris, main .travel .fallIntoTravel .london, main .travel .fallIntoTravel .columbia {
+  margin-left: 16px;
+}
+
+.srilanka .description {
+  margin-left: 104px;
+}
+.srilanka h3 {
+  padding-top: 50px;
+  font-size: 40px;
+  display: inline-block;
+}
+.srilanka .seeAll {
+  border: #8DD3BB 1px solid;
+  float: right;
+}
+.srilanka travel {
+  width: 270px;
+  height: 320px;
+  padding: 10px;
+}
+.srilanka .bookHotelButton {
+  width: 100px;
+  background-color: #8DD3BB;
+  border-radius: 4px;
+  border-color: #8DD3BB;
+  width: 150px;
+  height: 30px;
+}
+.srilanka .exploreSrilanka {
+  margin-left: 104px;
+}
+.srilanka .exploreSrilanka srilanka {
+  display: inline;
+}
+.srilanka .exploreSrilanka .srilankaImages {
+  padding-left: 104px;
+}
+.srilanka .greenary {
+  margin-bottom: 100px;
+}
+
+footer .subscribeFooter {
+  background-color: #CDEAE1;
+  width: 1100px;
+  height: 305px;
+  border-radius: 20px;
+  padding-left: 20px;
+  z-index: 100;
+  position: relative;
+  top: 150px;
+  left: 104px;
+}
+footer .subscribeFooter .emailbox {
+  float: right;
+  width: 400px;
+  height: 305px;
+  margin-top: 0px;
+}
+footer .subscribeFooter .newsletter, footer .subscribeFooter .subscribe {
+  font-size: 40px;
+  font-weight: bold;
+}
+footer .subscribeFooter .subscription {
+  width: 104px;
+  height: 54px;
+  background-color: black;
+  color: white;
+}
+footer .subscribeFooter .yourEmail {
+  width: 473px;
+  height: 50px;
+}
+footer .footer {
+  background-color: #8DD3BB;
+  display: flex;
+  width: 1500px;
+  height: 300px;
+  padding-top: 300px;
+  z-index: -1;
+}
+footer .footer .logoSocials {
+  flex: 2;
+  margin-left: 104px;
+}
+footer .footer .travelBlogs {
+  flex: 1.2;
+}
+footer .footer .footerLogo {
+  display: block;
+}
+footer .footer .ourDestination, footer .footer .ourActivities, footer .footer .aboutUs, footer .footer .contactUs {
+  flex: 1;
+}/*# sourceMappingURL=main.css.map */

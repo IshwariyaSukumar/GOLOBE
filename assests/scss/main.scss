@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nanum+Gothic&display=swap');
+
+header{
+    font-family: 'Montserrat';
+}
+nav{
+    display: flex;
+    width: 1440px;
+    padding: 21px;
+    align-items: center; 
+   
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;  
+    }  
+
+    p{
+        padding-left: 16px;
+        display: inline;
+        padding-bottom: 35px;
+    }
+
+    .flight{
+        padding-left: 104px;
+    }
+
+    .bed{
+        padding-left: 32px;
+    }
+
+    .mainLogo{
+        padding-left: 288px;
+    }
+
+    .favourites{
+        padding-left: 330px;
+    }
+
+    .profilePicture{
+        padding-left: 32px;
+    }
+}
+
+
+.menu{
+
+    .banner{
+        z-index: 0;
+        background-image: url(/assests/images/HeaderImages/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1500px;
+        height: 537px;
+       
+        
+       }
+
+    .dropdownMenu{
+        width: 329px;
+        height: 363px;
+        margin-left: 994px;
+        margin-top: -557px;
+        background-color: white;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        z-index: 100;
+        border-radius: 20px;
+    }
+
+    #menuPicture{
+        padding-left: 32px;
+        padding-top: 32px;
+    }
+    
+    li{
+        padding-bottom: 17px;
+    }
+    
+    li p{
+        display: inline;
+    }
+    
+    #menuName{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    #menuOnline,#menuName{
+        display: inline-block;
+    }
+    
+    hr{
+      border-top: 1px solid gray;
+    }
+    
+    #menuOnline{
+      color: gray;
+    }
+    
+    ul{
+        list-style: none;
+    }
+
+    .sign{
+        display: inline;
+        padding-right: 32px;
+    }
+}
+
+
+.searchMenu{
+    display: flex;
+    flex-direction: column;
+    width: 1232px;
+    justify-content: center;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow:  5px 5px 5px whitesmoke;
+    border-radius: 25px;
+    margin-left: 104px;
+    margin-top: 74px;
+    z-index: 1;
+
+
+    h4{
+        flex: 1;
+        
+    }
+
+    .searchPlace{
+        flex: 2;
+        justify-content: space-between;
+    }
+
+    .showPlaces{
+        margin-top: 20px;
+        margin-left: 900px;
+
+        .showPlacesButton{
+            
+                
+                padding: 5px 12px;
+                background-color: #8DD3BB;
+                border-radius: 4px;
+                border-color: #8DD3BB;
+                
+               
+            }
+        
+            .promoCode{
+               border: none;
+               background-color: white;
+               padding: 5px 12px;
+              
+            }
+        }
+       
+    }
+
+    
+
+
+
+
+
+
+main{
+    padding-left: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+    h3{
+        font-size: 32px;
+        margin-left: 104px;
+        margin-top: 80px;
+    }
+
+    .searches{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-self: stretch;
+        margin-left: 104px;
+
+        div{
+            display: flex;
+            flex-direction: row;
+            div{
+                display: flex;
+                flex-direction: column;
+               
+                margin-left: 10px;
+            }
+        }
+        
+
+        .recentSearches{
+            width: 90px;
+            height: 90px;
+            
+        }
+
+        .searches p{
+            font-size: small;
+         }
+         
+
+         .placeNo{
+            color: gray;
+        }
+    }
+       
+    .travel{
+       
+
+        h3{
+            margin-top: 80px;
+            
+        }
+
+        .seeAll{
+            
+            float: right;
+           margin-left: 20px;
+        }
+
+        p{
+            margin-left: 104px;
+           
+        }
+        
+    .fallIntoTravel{
+        display: flex;
+        flex-direction: row;
+
+        img{
+            display: inline-block;
+        }
+       
+        .melbourne{
+            margin-left: 104px;
+            height: 420px;
+        }
+        .melbourne,.paris,.columbia{
+          width: 296px;
+          
+
+        }
+        .paris{
+            height: 418px;
+        }
+        .london{
+           
+            height: 425px;
+        }
+        .columbia{
+            height: 415px;
+        }
+        .paris,.london,.columbia{
+            margin-left: 16px;
+        }
+        
+    }
+    
+    }
+    
+}
+.srilanka{
+    .description{
+        margin-left: 104px;
+    }
+    h3{
+        padding-top: 50px;
+        font-size: 40px;
+        display: inline-block;
+    }
+
+.seeAll{
+    border: #8DD3BB 1px solid;
+    float: right;
+}
+
+
+travel{
+    width: 270px;
+    height: 320px;
+    padding: 10px;
+}
+
+
+.bookHotelButton{
+    width:100px;
+    background-color:#8DD3BB;
+    border-radius: 4px;
+    border-color: #8DD3BB;
+    width: 150px;
+    height: 30px; 
+   
+}
+
+.exploreSrilanka{
+   margin-left: 104px;
+   srilanka{
+    display: inline;
+   }
+   
+   .srilankaImages{
+   padding-left: 104px;
+
+   }
+}
+.greenary{
+    margin-bottom: 100px;
+}
+}
+
+
+footer{
+    
+
+.subscribeFooter{
+    background-color: #CDEAE1;
+    width: 1100px;
+    height: 305px;
+    border-radius: 20px;
+    padding-left: 20px;
+    z-index: 100;
+   position: relative;
+   top: 150px;
+   left: 104px;
+    
+    .emailbox{
+        float: right;
+        width: 400px;
+        height: 305px;
+        margin-top: 0px;
+        
+    }
+    .newsletter,.subscribe{
+        font-size: 40px;
+        font-weight: bold;
+     
+     }
+     .subscription{
+        width: 104px;
+        height: 54px;
+        background-color: black;
+        color: white;
+        
+    }
+    .yourEmail{
+        width: 473px;
+        height: 50px;
+    }
+     
+}
+
+.footer{
+    background-color: #8DD3BB; 
+    display: flex;
+    width: 1500px;
+    height: 300px;
+    padding-top: 300px;
+    z-index: -1;
+   
+   
+    .logoSocials{
+        flex:2;
+        margin-left: 104px;
+    }
+
+    .travelBlogs{
+        flex: 1.2;
+    }
+    
+    .footerLogo{
+        display: block;
+    }
+    
+    .ourDestination,.ourActivities,.aboutUs,.contactUs{
+        flex:1;  
+    }
+}
+}
+
+
+
+
+
+
